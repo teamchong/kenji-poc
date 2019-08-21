@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  kenji:
+    build:
+      context: .
+      args:
+        - QUERY
+    volumes:
+      - .:/app
